@@ -1,0 +1,125 @@
+*{
+     margin: 0; 
+     padding: 0;
+    } 
+body{
+     background: #FFD8E2; 
+    }
+.all{ 
+    width: 80%;
+     margin:100px auto;
+    }
+.left{
+     width: 25%;
+     height: 800px;
+     background:white;
+     float:left; 
+     border-radius: 20px 0px 0px 20px;
+    
+    }
+.touxiang{ width: 100%;
+       background: url(../img/head.jpg);
+       height: 200px;
+       border-radius: 20px 0px 0px 0px;
+    }
+.left img{ margin-left: 60px;}
+.left ul{
+    width: 50%;
+    margin: 20px auto;
+    list-style: none;
+
+}  
+.jieshao li{ 
+    text-align: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+     font-size: 14px;
+     color:#2B455F;
+     font-weight: 600;
+}
+.center{ 
+    width: 25%; 
+    height: 800px; 
+    background:#2B455F;
+    float: left;
+}
+.h{
+    width: 90%;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    border-bottom: 1px solid #D1DEEC
+}
+.h li { float:left; 
+    list-style: none;
+     padding: 12px;
+}
+.h li a{
+    text-decoration: none;
+    color: white; 
+    font-size: 14px;
+    }
+.h li a:hover{
+    font-size: 16px;
+}
+ .s { 
+        width: 100%; 
+        margin: 0 auto;
+        list-style: none;
+         margin-top: 30px;
+    }
+.s li {
+        width: 100%; 
+        height: 70px;
+        background-color: #2B455F;  
+     } 
+.s li a{
+    width: 100%; 
+    height: 70px;
+    line-height: 70px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    border-left:#2B455F 30px solid;
+    border-right:#2B455F 30px solid;
+    box-sizing:border-box;
+}
+.s li a:hover {
+    color: #2B455F;
+    background-color: #D1DEEC; 
+    border-left:#FFD8E2 30px solid;
+    border-right:#FFD8E2 30px solid;
+    transform:scale(1.1,1.1);
+}
+.s  p{
+         width: 90%;
+         margin: 0 auto; 
+         line-height: 30px; 
+         color: white;
+         opacity: 0.6;
+         font-size: 14px;
+         text-indent: 2em;
+     }
+.right{ 
+    width: 50%; 
+    height: 800px; 
+    background:white;
+    float: left;
+    border-radius: 0px 20px 20px 0px;
+}
+.content iframe{
+    width: 100%;
+     height: 600px;
+     border-radius: 0px 0px 20px 0px;
+
+
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background: url(../img/header.jpg);
+    border-radius: 0px 20px 0px 0px;
+}

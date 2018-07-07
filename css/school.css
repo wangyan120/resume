@@ -1,0 +1,17 @@
+*{
+     margin: 0; 
+     padding: 0;
+    } 
+.all{ 
+    text-align: center;
+margin-top: 10px; 
+}
+p{ 
+    width: 90%;
+    margin: 0 auto; 
+    margin-top: 20px;
+    text-indent: 2em;
+    text-align: left;
+    font-size: 16px; 
+    color:#2B455F;
+  }
